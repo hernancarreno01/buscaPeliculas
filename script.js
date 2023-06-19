@@ -1,6 +1,3 @@
-// Importar la biblioteca 'axios' para realizar solicitudes HTTP
-const axios = require('axios');
-
 // Clave de API de TMDb
 const apiKey = '151789e15fdaffa657de9fc429607639';
 
@@ -34,6 +31,7 @@ async function buscarPeliculas(titulo) {
 // Uso del buscador de películas
 const tituloBusqueda = 'Avengers'; // Cambia esto al título de película que deseas buscar
 buscarPeliculas(tituloBusqueda);
+
 
 /*
 Recuerda reemplazar 'TU_CLAVE_DE_API_AQUI' con tu clave de API de TMDb que
