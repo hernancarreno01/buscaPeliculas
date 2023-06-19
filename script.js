@@ -2,7 +2,7 @@
 const axios = require('axios');
 
 // Clave de API de TMDb
-const apiKey = 'TU_CLAVE_DE_API_AQUI';
+const apiKey = '151789e15fdaffa657de9fc429607639';
 
 // Función para buscar películas por título
 async function buscarPeliculas(titulo) {
